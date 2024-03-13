@@ -1,0 +1,70 @@
+.contact-from h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+.contact-from form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-from form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-from form .input-box input,
+.contact-from form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 20px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: 18px;
+    margin: 1rem 0;
+    resize: none;
+}
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-2{
+    padding: 15px 28px;
+    background-color: purple;
+    color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: antiquewhite;
+    color: purple;
+}
+span{
+    color: purple;
+}

@@ -1,0 +1,79 @@
+.btn-box{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 15px 28px;
+    background-color: black;
+    color: antiquewhite;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid black;
+}
+span{
+    color: purple;
+}
+.btn-2{
+    padding: 15px 28px;
+    background-color: purple;
+    color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: antiquewhite;
+    color: purple;
+}
+.img-box img{
+    border-radius: 450%;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap:10em;
+    background: black;
+}
+.about-img img{
+    position: relative;
+    width: 450px;
+    box-shadow: 0 0 25px purple,
+                0 0 50px purple;
+    border-radius: 30%;            
+}
+.img-box{
+    margin-right: 20px;
+}
+.about-content h2{
+    text-align: left;
+    color: antiquewhite;
+    font-size: 42px;
+}
+.about-content h3{
+    font-size: 62px;
+    color: antiquewhite;
+}
+.about-content p{
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
